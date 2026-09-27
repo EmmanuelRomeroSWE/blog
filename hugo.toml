@@ -2,3 +2,7 @@ baseURL = 'https://EmmanuelRomeroSWE.github.io/blog/'
 locale = 'en-us'
 title = "Emmanuel's Blog"
 theme = 'ananke'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
